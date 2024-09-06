@@ -1,0 +1,107 @@
+name: internship
+description: A new Flutter project.# The following line prevents the package from being accidentally published to
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0  
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^2.0.14
+  get: ^4.6.1
+  #flutter_barcode_scanner: ^2.0.0
+  qr_code_scanner: ^1.0.1
+  mobile_scanner: ^1.0.0
+  video_player: ^2.7.0
+  # DateTime
+  jiffy: ^5.0.0
+  intl: ^0.18.0
+  http: ^0.13.4
+ 
+  # Images
+  cached_network_image: ^3.2.3
+  image_picker: ^0.7.2+1
+  # Animate
+  show_up_animation: ^2.0.0
+  auto_animated: ^3.0.1
+  # Google Map
+  flutter_polyline_points: ^1.0.0
+  google_maps_flutter: ^2.1.5
+  geolocator: ^8.0.5
+  geocoding: ^2.0.4
+
+  # Local Data Cache
+  sqflite: ^2.0.2
+  shared_preferences: ^2.0.15
+  path: ^1.8.0
+  flutter_fortune_wheel: ^1.3.0
+  #customico: ^0.0.13
+  flutter_customs: ^0.0.18
+      # Icon
+  # flutter_svg: ^1.0.3
+  font_awesome_flutter: ^10.1.0
+  fluttericon: ^2.0.0
+  dartz: ^0.10.1
+  # Google Auth
+  google_sign_in: ^5.3.1
+  device_preview: ^1.1.0
+  responsive_builder: ^0.4.2
+  image_pickers: ^2.0.0+2
+  flutter_svg: ^2.0.9
+  flutter_otp_text_field: ^1.0.1
+  google_nav_bar: ^5.0.6
+  curved_navigation_bar: ^1.0.3
+  lottie: ^2.4.0
+  url_launcher: ^6.1.12
+  intl_phone_field: ^3.2.0
+  rename: ^3.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/AquaSaversLogo.jpeg"
+  
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/lottie/
+      #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Nunito
+      fonts:
+         - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+           weight: 700
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
